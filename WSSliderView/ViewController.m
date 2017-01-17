@@ -17,8 +17,6 @@
 //Initial commit comment!
 //Initial commit to gitHub!
 
-//Now I have switched to the branch.
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
@@ -36,8 +34,7 @@
     [content didMoveToParentViewController:self];
 }
 
-
-- (void)didReceiveMemoryWarning {
+ - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
