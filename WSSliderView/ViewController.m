@@ -28,7 +28,7 @@
 {
     [super viewDidAppear:animated];
     
-    NSLog(@"Here comes the blue view!");
+    NSLog(@"Here comes the blue view again!");
     
     UIViewController *content = [self.storyboard instantiateViewControllerWithIdentifier:@"BlueVC"];
     [self addChildViewController:content];
