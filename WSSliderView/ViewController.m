@@ -17,20 +17,9 @@
 //Initial commit comment!
 //Initial commit to gitHub!
 
-//Now I have switched to the branch.
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)viewDidAppear:(BOOL)animated
-{
-    [super viewDidAppear:animated];
-    UIViewController *content = [self.storyboard instantiateViewControllerWithIdentifier:@"BlueVC"];
-    [self addChildViewController:content];
-    [self.view addSubview:content.view];
-    [content didMoveToParentViewController:self];
 }
 
 
